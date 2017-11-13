@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forest Animals</title>
+	<style>
+		div.scroll {
+    		background-color: #00FFFF;
+    		width: 100px;
+    		height: 100px;
+    		overflow: scroll;
+        }
+        
+        <!-- Add the background image on your web page -->
+        body {
+        	background-image: url("https://thumb1.shutterstock.com/display_pic_with_logo/499012/202455160/stock-photo-background-made-of-newspaper-clippings-202455160.jpg"); 
+        	background-color: #00FFFF;
+        	overflow: scroll;
+        	width: 1000px;
+        	height: 1000px;
+        }
+
+        .navbar {
+        	overflow: hidden;
+            background-color: #00FFFF;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+	<!-- create a div box and set your large content inside a div. Use
+the scrollable overflow property for your larger content.-->
+
+	<p>overflow:scroll</p>
+    
+    <div class="scroll">You can use the overflow property when you want</br>
+     to have better control of the layout. The default value is visible.</div>
+     
+     <!--Create a fixed navigation bar with ul list as the HOME, ABOUT, CONTACT page-->
+
+     <nav class=navbar>
+    	<ul> 
+ 			 <li><a href="#home">Home</a></li>
+  			 <li><a href="#contact">Contact</a></li>
+
+  			 <!-- Anchor the link to an individual page. When a user clicks the ABOUT page, it
+should route to that page-->
+ 			 <li><a href="https://www.google.com">About</a></li>
+ 	    </ul>
+    </nav>
+</body>
+</html>
